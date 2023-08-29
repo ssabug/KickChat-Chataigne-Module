@@ -4,9 +4,9 @@ A simple module to use Kick Chat with the Chataigne Software
 link :  <a href="http://benjamin.kuperberg.fr/chataigne/en" target="_blank">Chataigne Software </a> By Benjamin Kuperberg
 
 // PRE REQUISITES //
-python 3
-python libs: time, datetime, json, selenium, http.server, threading (you can install them with the utility pip)
-gecko driver to be put in the kick chat module folder get the right one for your system on https://github.com/mozilla/geckodriver/releases 
+- python 3
+- python libs: time, datetime, json, selenium, http.server, threading (you can install them with the utility pip)
+- gecko driver to be put in the kick chat module folder get the right one for your system on https://github.com/mozilla/geckodriver/releases 
 
 // HOW TO USE //
 
