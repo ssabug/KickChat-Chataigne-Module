@@ -3,12 +3,12 @@ A simple module to use Kick Chat with the Chataigne Software
 
 link :  <a href="http://benjamin.kuperberg.fr/chataigne/en" target="_blank">Chataigne Software </a> By Benjamin Kuperberg
 
-PRE REQUISITES : 
+# H1 PRE REQUISITES : 
   - python 3
   - python libs: datetime, pypi-json, selenium. You can install them with : pip install -r requirements.txt  working in module directory
   - gecko driver to be put in the kick chat module folder get the right one for your system on https://github.com/mozilla/geckodriver/releases 
   
- HOW TO USE :
+ # H1 HOW TO USE :
    - extract the zip in the folder where Chataigne community modules are located on your system
    - edit, with a text editor, kickChat.py and complete at the beginning of the file:  channel_name='' with the channel you want to scrape (lowercase)
    - run a terminal, and being in the module directory, type: python kickChat.py
@@ -20,9 +20,8 @@ PRE REQUISITES :
    - wait few seconds and check of the "channel id" field has been automatically filled
    - enjoy and thank you for giving a feedback
 
-NOTES :
-
-Important note: For the moment this module is for listening only; you wont be able to send any chat command.
+# H1 NOTES :
+**Important note : ** For the moment this module is for listening only; you wont be able to send any chat command.
 
 As said above, we need to have some webscraping task running.
 There is a kickChat.py python script that, using selenium and gecko webdriver, will gather data on both urls.
