@@ -21,7 +21,7 @@ link :  <a href="http://benjamin.kuperberg.fr/chataigne/en" target="_blank">Chat
    - enjoy and thank you for giving a feedback
 
 # NOTES :
-**Important note : ** For the moment this module is for listening only; you wont be able to send any chat command.
+**Important note :** For the moment this module is for listening only; you wont be able to send any chat command.
 
 As said above, we need to have some webscraping task running.
 There is a kickChat.py python script that, using selenium and gecko webdriver, will gather data on both urls.
