@@ -5,19 +5,20 @@ link :  <a href="http://benjamin.kuperberg.fr/chataigne/en" target="_blank">Chat
 
 # Pre requisites 
   - python 3
-  - python libs: datetime, pypi-json, selenium. You can install them with : pip install -r requirements.txt  working in module directory
-  - gecko driver to be put in the kick chat module folder, get the right one for your system on https://github.com/mozilla/geckodriver/releases (firefox has to be installed on the system)
+  - pip
+  - gecko driver (firefox has to be installed on the system)
   
  # How to use
    - extract the zip in the folder where Chataigne community modules are located on your system
-   - edit, with a text editor, kickChat.py and complete at the beginning of the file:  channel_name='' with the channel you want to scrape (lowercase)
-   - run a terminal, and being in the module directory, type: python kickChat.py
-   - check if the "|| MAIN ||  Getting data from https://kick.com/api/v2/channels/..." lines are present, that indicates the script is actually scraping data on Kick urls
-   - you can now load the kick chat module into Chataigne
-   - check the base address of the module is http://localhost:8000/
-   - fill the "channel name" field of the module with the channel name you want to listen to (lowercase)
-   - reload the Script Kickchat.js into the module
-   - wait few seconds and check of the "channel id" field has been automatically filled
+   - download the gecko driver from https://github.com/mozilla/geckodriver/releases and put the binary file in the kick module folder
+   - edit, with a text editor, **kickChat.py** and complete at the beginning of the file:  **channel_name=''** with the channel you want to scrape (lowercase)
+   - run a terminal, and being in the kick module directory,type **pip install -r requirements.txt**
+   - then type **python kickChat.py**
+   - check if the **|| MAIN ||  Getting data from https://kick.com/api/v2/channels/...** lines are present, that indicates the script is actually scraping data on Kick urls
+   - load the kick chat module into Chataigne
+   - check the base address of the module is **http://localhost:8000/**
+   - fill the **channel name** parameter of the module with the kick channel name (lowercase)
+   - wait few seconds and check if the **channel id** field has been automatically filled
    - enjoy and thank you for giving a feedback
 
 # Notes
