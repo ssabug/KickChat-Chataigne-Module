@@ -3,7 +3,7 @@ A simple module to use Kick Chat with the Chataigne Software
 
 link :  <a href="http://benjamin.kuperberg.fr/chataigne/en" target="_blank">Chataigne Software </a> By Benjamin Kuperberg
 
-# Pre requisites 
+# Requires 
   - python 3
   - pip
   - gecko driver (firefox has to be installed on the system)
@@ -24,7 +24,9 @@ link :  <a href="http://benjamin.kuperberg.fr/chataigne/en" target="_blank">Chat
 # Notes
 **Important note :** For the moment this module is for listening only; you wont be able to send any chat command.
 
-As said above, we need to have some webscraping task running.
+So far this script has been tested on windows & linux.
+
+To listen to kick chat message, the script uses webscraping
 There is a kickChat.py python script that, using selenium and gecko webdriver, will gather data on both urls.
 
 It will then provides the 2 json objects on :
