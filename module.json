@@ -1,0 +1,138 @@
+{
+	"name": "Kick Chat",
+	"type": "HTTP",
+	"path": "Software",
+	"version": "0.0.1",
+	"description": "To listen to your kick chat",
+	"url": "",
+	"downloadURL": "",
+	"hasInput": true,
+	"hasOutput": true,
+	"hideDefaultCommands": true,
+	"hideDefaultParameters": [
+		"autoAdd",
+		"protocol",
+		"messageStructure",
+		"firstValueIsTheName",
+		"useSecureConnection",
+	],
+   "parameters": {
+		"Channel Name": {
+			"type": "String",
+            "default":"",
+		},
+		"Channel ID": {
+			"type": "String",
+            "default":"",
+		},
+        "TriggerDebug": {
+            "type": "Trigger",
+        },
+         "debugUsername": {
+            "type": "String",
+        },
+         "debugMessage": {
+            "type": "String",
+        },
+		
+   },
+   "defaults": {
+		"Protocol": "Lines",
+		"autoAdd": false,
+		"baseAddress": "http://localhost:8000/",
+   },
+	"values": {
+        "Stream Name": {
+			"type":"String",
+		},
+         "Stream Title": {
+			"type":"String",
+		},
+        "Stream live": {
+			"type":"Boolean",
+		},
+        "Followers": {
+			"type":"Integer",
+		},
+        "Viewers": {
+			"type":"Integer",
+		},
+        "New Follower": {
+			"type":"Trigger",
+		},
+        "New message": {
+			"type":"Trigger",
+		},
+         "Emote trigger": {
+			"type":"Trigger",
+		},   
+         "Event trigger": {
+			"type":"Trigger",
+		},  
+         "Event name": {
+			"type":"String",
+		},       
+		"Last pseudo message": {
+			"type":"String",
+		},
+		"Last message": {
+			"type":"String",
+		},
+         "Last pseudo emote": {
+			"type":"String",
+		},
+		"Last emote": {
+			"type":"String",
+		},
+        "Chat users": {
+			"type":"String",
+		},
+        "user color": {
+			"type":"Color",
+		},
+        "text color": {
+			"type":"Color",
+		},
+         "mood color1": {
+			"type":"Color",
+		},
+        "mood color2": {
+			"type":"Color",
+		}, 
+         "mood color3": {
+			"type":"Color",
+		},
+        
+        
+	},
+   "scripts": [
+      "Kickchat.js"
+   ],
+	"commands": {
+		"Write message": {
+			"menu": "",
+			"callback": "Privmsg",
+			"parameters": {
+				"Message to send": {
+					"type": "String"
+				}
+			}
+		},
+		"Remove values": {
+			"menu": "",
+			"callback": "RemoveValues",
+			"parameters": {
+				}
+		},
+		"Commande": {
+			"menu": "",
+			"callback": "Commande",
+			"parameters": {
+				"data": {
+					"type": "String"
+				}
+            },
+		},
+	}
+}
+
