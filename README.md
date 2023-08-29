@@ -36,7 +36,7 @@ This post on reddit (https://www.reddit.com/r/KickStreaming/comments/11u9xpk/kic
 See the ziggy.json file for details.
 
 # CHANGE RECORDS :
-## V0.1  (30082023 )  Initial version. 
+### V0.1  (30082023 )  Initial version. 
   - Lot of stuff to do/clean
 
 
