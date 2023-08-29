@@ -12,7 +12,7 @@ link :  <a href="http://benjamin.kuperberg.fr/chataigne/en" target="_blank">Chat
    - extract the zip in the folder where Chataigne community modules are located on your system
    - download the gecko driver from https://github.com/mozilla/geckodriver/releases and put the binary file in the kick module folder
    - edit, with a text editor, **kickChat.py** and complete at the beginning of the file:  **channel_name=''** with the channel you want to scrape (lowercase)
-   - run a terminal, and being in the kick module directory,type **pip install -r requirements.txt**
+   - run a terminal, and being in the kick module directory, type **pip install -r requirements.txt**
    - then type **python kickChat.py**
    - check if the **|| MAIN ||  Getting data from https://kick.com/api/v2/channels/...** lines are present, that indicates the script is actually scraping data on Kick urls
    - load the kick chat module into Chataigne
