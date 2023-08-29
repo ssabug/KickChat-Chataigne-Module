@@ -147,7 +147,7 @@ if channel_name != "" :
     html_thread.join();
 
 else :
-    print("PLEASE EDIT THIS FILE AND UPDATE THE LINE channel_name='jtsteelflex'; with the channel name to listen to (lowercase)");
+    print("PLEASE EDIT THIS FILE AND UPDATE THE LINE channel_name=''; with the channel name to listen to (lowercase)");
 
     
     
