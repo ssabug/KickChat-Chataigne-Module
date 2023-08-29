@@ -35,7 +35,8 @@ Doing so, the chataigne module keeps being designed as a http module doing GET r
 This post on reddit (https://www.reddit.com/r/KickStreaming/comments/11u9xpk/kick_api/) ), indicates there is a v1 "API" that we may use to control more stuff.
 See the ziggy.json file for details.
 
-// CHANGE RECORDS //
-V0.1    // 07082023 // Initial version. Lot of stuff to do/clean.
+# CHANGE RECORDS :
+##V0.1  (30082023 )  Initial version. 
+  - Lot of stuff to do/clean
 
 
