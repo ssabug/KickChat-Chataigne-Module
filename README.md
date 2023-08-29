@@ -20,7 +20,8 @@ PRE REQUISITES :
    - wait few seconds and check of the "channel id" field has been automatically filled
    - enjoy and thank you for giving a feedback
 
-NOTES:
+NOTES :
+
 Important note: For the moment this module is for listening only; you wont be able to send any chat command.
 
 As said above, we need to have some webscraping task running.
