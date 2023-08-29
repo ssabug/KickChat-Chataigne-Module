@@ -1,7 +1,5 @@
 # KickChat-Chataigne-Module
-A simple module to use Kick Chat with the Chataigne Software
-
-link :  <a href="http://benjamin.kuperberg.fr/chataigne/en" target="_blank">Chataigne Software </a> By Benjamin Kuperberg
+A simple module to use Kick Chat with the <a href="http://benjamin.kuperberg.fr/chataigne/en" target="_blank">Chataigne Software </a> By Benjamin Kuperberg
 
 # Requires 
   - python 3
