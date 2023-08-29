@@ -6,7 +6,7 @@ link :  <a href="http://benjamin.kuperberg.fr/chataigne/en" target="_blank">Chat
 # PRE REQUISITES : 
   - python 3
   - python libs: datetime, pypi-json, selenium. You can install them with : pip install -r requirements.txt  working in module directory
-  - gecko driver to be put in the kick chat module folder get the right one for your system on https://github.com/mozilla/geckodriver/releases 
+  - gecko driver to be put in the kick chat module folder, get the right one for your system on https://github.com/mozilla/geckodriver/releases 
   
  # HOW TO USE :
    - extract the zip in the folder where Chataigne community modules are located on your system
